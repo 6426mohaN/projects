@@ -7,8 +7,6 @@ import HomeCard from './HomeCard';
 import MeetingModal from './MeetingModal';
 import { useUser } from '@clerk/nextjs';
 import {  Call, useStreamVideoClient } from '@stream-io/video-react-sdk';
-//import { Call } from '@stream-io/video-react-sdk';
-
 import { useToast } from "@/components/ui/use-toast"
 import ReactDatePicker from 'react-datepicker';
 

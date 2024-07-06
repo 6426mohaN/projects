@@ -40,6 +40,9 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
     }
   };
 
+
+      
+
   useEffect(() => {
     const fetchRecordings = async () => {
       const callData = await Promise.all(
